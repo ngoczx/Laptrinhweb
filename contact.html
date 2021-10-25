@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Phim ZX</title>
+	    <link 	href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+	    <script src="https://kit.fontawesome.com/18878758c8.js" crossorigin="anonymous"></script>
+        <style>
+            * {
+                    margin: 0;
+                    padding: 0;
+                }
+                body {
+                    text-align: center;
+                    background: #ebebeb;
+                }
+                .wrapper {
+                    width: 1170px;
+                    margin: 0 20 0 0;
+                }	
+                header {
+                    height: 70px;
+                    background: #1a1a1a;
+                    width: 100%;
+                    z-index: 10;
+                    position: fixed;
+                }
+                .logo {
+                    width: 30%;
+                    float: left;
+                    line-height: 70px;
+                    font-weight: bolder;
+                }
+                .logo a {
+                    text-decoration: none;
+                    font-size: 40px;
+                    font-family: poppins;
+                    color: #fff;
+                    font-weight: 30px;
+                }
+                nav {
+                    position: absolute;
+                    right: 10px;
+                    line-height: 70px;
+                }
+                nav a {
+                    text-decoration: none;
+                    font-family: Bahnschrift;
+                    letter-spacing: 1px;
+                    font-size: 22px;
+                    margin: 0 20px auto;
+                    color: #fff;
+                    font-weight: lighter;
+                }
+                .content-area{
+                    width: 100%;
+                    position: relative;
+                }
+                .information{
+                    width: 1000px;
+                    height: 600px;
+                    position: relative;
+                    margin-left: auto;
+                    margin-right: auto;
+                    top: 100px;
+                    background-color: #262626;
+                    border-radius: 25px;
+                }
+                footer{
+                    width: 100%;
+                    height: 483px;
+                }
+                .credit{
+                    width: 100%;
+                    position: relative;
+                    top: 200px;
+                    height: 500px;
+                    background-image: url(img/footer-bg.jpg);
+                }
+                .credit p{
+                    font-family: Bahnschrift;
+                    color: #fff;
+                    text-align: left;
+                    position: absolute;
+                    left: 305px;
+                    top:75px;
+                    font-size:larger;
+                }
+                h1{
+                    position: relative;
+                    color: #fff;
+                    font-size: 40px;
+                    font-weight: lighter;
+                    padding-top: 20px;
+
+                }
+                label{
+                    color:#fff;
+                    font-family:Bahnschrift ;
+                    font-size: 25px;
+                    width:400px;
+                    position: relative;
+                    color:#fff;
+                }
+                .txt{
+                    border-radius: 8px;
+                    width: 600px;
+                    height: 40px;
+                    position: absolute;
+                  
+                }
+                .information div{
+                    padding-top: 30px
+                }
+                .information textarea{ 
+                 resize:none;
+                 border-radius: 8px;
+                 position: absolute;
+                 right: 30px;
+                 width: 600px;
+                 height:250px;
+                }
+                .content label{
+                    margin-right: 385px;
+                } 
+                .submit{
+                    position: absolute;
+                    bottom: 15px;
+                    right: 30px;   
+                }
+                .submit input{
+                    background-color: red;
+                    font-family: Bahnschrift;
+                    font-size: 20px;
+                    border-radius: 5px;
+                    width:80px;
+                    height: 40px;
+                    border: none;
+                    text-align: center;
+                    color: white;   
+                }
+                .submit input:hover {background-color: rgb(236, 0, 0)}
+                .submit input:hover {cursor: pointer;}
+        </style>
+    </head>
+    <body>  
+        <header>
+			<div class="wrapper">
+				<div class="logo">
+					<a href="index.html">PHIMZX</a>
+				</div>
+				<nav>
+					<a href="index.html">Trang chủ</a> 
+				    <a href="search.html">Tìm kiếm</a>
+				</nav>
+			</div>
+		</header>
+        <div class="content-area">
+                <div class="information">
+                    <h1 style="text-align: center; font-family: Bahnschrift;top:10px;">
+                        Liên Hệ
+                    </h1>
+                    <form>
+                    <div class="name">
+                        <!--<p>Họ và Tên: </p>-->
+                        <label style="margin-right:400px;    ">Username: </label><input type="text" style="right: 30px" class="txt" />
+                    </div>
+                    <div class="email">
+                        <!--<p>Email: </p>-->
+                        <label style="margin-right:350px; ">Email: </label><input type="text" style="right: 30px"  class="txt" />
+                    </div>
+                    <div class="phone">
+                        <!--<p>Số điện thoại: </p>-->
+                        <label style="margin-right:430px; ">Số điện thoại: </label><input type="text" style="right: 30px"  class="txt" />
+                    </div>
+                    <div class="content">
+                        <label>Nội dung: </label>
+                       <textarea placeholder="Hãy miêu tả về vấn đề đang gặp phải..."></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Liên hệ" onclick="alert('Câu trả lời đã được ghi nhận, chúng tôi sẽ phản hồi cho bạn trong thời gian sớm nhất!! ')"></input>
+                    </div>
+                    </form>
+                </div>
+        </div>
+        <footer>
+            <div class="credit">
+				<p>Phim chất lượng cao online của PHIMZX khác gì so với các trang phim khác?<br><br><br>
+					-Là phim bluray (reencoded), có độ phân giải thấp nhất là Full HD (1080p), trong khi hầu hết các trang phim khác chỉ có tới độ phân giải HD (720p) là cao nhất<br>
+					-Chất lượng cao, lượng dữ liệu trên giây (bitrate) gấp từ 5 - 10 lần phim online thông thường - đây là yếu tố quyết định độ nét của phim (thậm chí còn quan trọng hơn độ phân giải)<br>
+					-Âm thanh 5.1 (6 channel) thay vì stereo (2 channel) như các trang phim khác (kể cả Youtube)<br>
+					-Phù hợp để xem trên màn hình TV, máy tính, laptop có độ phân giải cao<br>
+					-Nếu không hài lòng với phụ đề có sẵn, bạn có thể tự upload phụ đề của riêng mình để xem online<br>
+					-Có lựa chọn hiện phụ đề song ngữ (tức hiện đồng thời cả tiếng Anh & tiếng Việt), phù hợp với những người muốn học tiếng Anh qua phụ đề phim<br><br><br>
+					Credit to Bảo Ngọc aka Zexid - Feel free to contact me if you have any problem - ngocnguyen0323@gmail.com
+				</p>
+				<a href="https://www.facebook.com/ngoc.nguyen.03/"><i class="gg-facebook" style="size:200%"></i></a>
+				<a href="https://www.instagram.com/ngocnb.2000/:"><i class="gg-instagram"></i></a>
+			</div>
+        </footer>
+    </body>
+</html>

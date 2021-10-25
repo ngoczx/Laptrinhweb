@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+	background: #262626;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 20 0 0;
+
+}
+
+	
+header {
+	height: 70px;
+	background-color: #1a1a1a;
+	width: 100%;
+	z-index: 10;
+
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 70px;
+	font-weight: bolder;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 40px;
+	font-family: poppins;
+	color: #fff;
+	font-weight: 30px;
+	
+}
+.account .dropdown{
+	position:absolute;
+	right:10px;
+	line-height: 70px;
+}
+.account .dropdown-content a{
+	width:240px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	display:inline-block;
+	text-align: left;
+}
+.account .dropdown-content{
+	background-color: #1a1a1a;
+	border-radius: 8px;
+}
+.button i {
+    box-sizing: border-box;
+    position: relative;   
+	top:3px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 100px
+}
+.account .dropdown-content a:hover 
+	{
+		color: #1a1a1a;
+}
+.dropdown-content i:hover
+	{
+		color: #1a1a1a;
+	}
+
+nav {
+	position: absolute;
+	left: 250px;
+	line-height: 70px;
+}
+.dropdown-content a{
+	font-family: Bahnschrift;
+	font-size: 22px;
+	font-weight: lighter;
+}
+nav a {
+	text-decoration: none;
+	font-family: Bahnschrift;
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin: 0 20px auto;
+	color: #fff;
+	font-weight: lighter;
+	
+}
+.dropdown a{
+	text-decoration: none;
+	font-family: Bahnschrift;
+	letter-spacing: 1px;
+	font-size: 22px;
+	color: #fff;
+	font-weight: lighter;
+
+}
+
+.gg-search {
+   float: right;
+}
+
+.dropbtn {
+	background-color:#1a1a1a;
+	padding: 8px;
+	font-size: 8px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	top: 70px;
+	background-color: #f9f9f9;
+	width: 800px;
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	width: 150px;
+	color: #1a1a1a;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: #1a1a1a;
+  }
+
+  .content-area {
+	width: 100%;
+	position: relative;
+	height: 100%;	
+  }
+
+  .content-area h2{
+	  font-family:Bahnschrift;
+	  font-size: 40px;
+	  font-weight: lighter;
+	  letter-spacing: -2px;
+	  color: #fff;
+	  width: 100%;
+	  position: relative;
+	  text-align: center; 
+	  padding-top: 50px;
+	
+  }
+  .recommended  img{
+	width:250px;height:400px;
+	padding: 10px 0 0 10px;
+	text-align: center;
+	position: relative;
+	left: -5px;
+  }
+
+.odd-movies img{
+	width:250px;height:400px;
+	padding: 10px 0 0 10px;
+	position: relative;
+	top: 0px;
+	left: -5px;
+}
+hr{
+	margin-left: auto;
+  	margin-right: auto;
+}
+.series{
+	position: relative;
+}
+.series-movies img{
+	width:250px;height:400px;
+	padding: 10px 0 0 10px;
+	position: relative;
+	left: -5px;
+}
+
+footer{
+	width: 100%;
+	height: 483px;
+}
+.credit{
+	width: 100%;
+	position: relative;
+	top: 100px;
+	height: 500px;
+	background-image: url(img/footer-bg.jpg);
+}
+.credit p{
+	font-family: Bahnschrift;
+	color: #fff;
+	text-align: left;
+	position: absolute;
+	left: 305px;
+	top:75px;
+	font-size:larger;
+}
+.gg-facebook {
+    position: relative;
+	size: 200%;
+	color: #fff;
+	top:10px;
+	left:10px;
+}
+
+.gg-instagram {
+    position: relative;
+    display: block;
+    border: 2px solid transparent;
+	color: #fff;
+	top: 20px;
+	left: 10px;
+}
+.odd-movies a{
+	text-decoration: none;
+	position: relative;
+	font-size: larger;
+	left: 610px;
+	color: #fff;
+}
+
+.series-movies a{
+	text-decoration: none;
+	position: relative;
+	font-size: larger;			
+	left: 610px;
+	color: #fff;
+}
+
+
+
